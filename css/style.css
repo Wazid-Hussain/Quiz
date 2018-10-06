@@ -1,0 +1,221 @@
+/* This Is The Main Style Sheet*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.menu{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+	font-size: 18px;
+	padding: 5px 20px;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.2);
+	color:#fff;
+    border-left: 2px solid #998714;
+    border-right: 2px solid #998714;
+
+}
+.hero-header{
+	width: 100%;
+    height: 330px;
+    background: url('../homebg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.hero-header h1{
+	text-align: center;
+	font-size: 80px;
+	padding-top: 50px;
+}
+.hero-header h3{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 10px;
+}
+
+main{
+	width: 80%;
+    margin: auto;
+    background: #eeeeee;
+    text-align: center;
+    display: flex;    
+    margin: -100px auto 0 auto;
+    padding-bottom: 50px;
+}
+.quiz-master{
+    width: 35%;
+    height: 300px;
+    margin: 20px auto;
+}
+.quiz-player{
+    width: 35%;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.box{
+	margin-top:50px;
+}
+
+.form_box{
+	
+	background: rgba(0,0,0,0.4);
+	border-left:3px solid #998714;
+	border-right:3px solid #998714;
+}
+.box .form_box form input{
+	width: 90%;
+    line-height: 35px;
+    border: none;
+    border-left: 2px solid #998714;
+    border-right: 2px solid #998714;
+    background: rgba(0,0,0,0.5);
+    color: #998714;
+    font-size: 20px;
+}
+.box .form_box form label{
+    float: left;
+    padding-left: 18px;
+	color:#998714;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.box .form_box form button{
+	    width: 90%;
+    margin: 20px;
+    line-height: 40px;
+    background: transparent;
+    border: none;
+	border-left:3px solid #998714;
+	border-right:3px solid #998714;
+	border-top:1px solid rgba(255, 255, 255, 0.4);
+	border-bottom:1px solid rgba(255, 255, 255, 0.4);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.box .form_box form button:hover{	
+    background: #998714;
+    transition: .5s linear all;
+}
+.box .form_box form .alert{
+	color: red;
+	text-align: center;
+	font-size: 24px;
+}
+.box .form_box form p{
+	text-align: center;
+    color: #c7af15;
+}
+.box .form_box form p a{
+    color: #545423;
+    text-decoration: none;
+}
+.box .form_box form p a:hover{
+	color: #c7af15;
+}
+table,td, th{
+	border: 1px dotted lightgray;
+}
+table{
+	margin: 20px auto;
+}
+.quiz-question{
+	width: 80%;
+	margin:-70px auto;
+	background: gray;
+	padding: 10px 20px;
+
+}
+
+
+.quiz-master-q{
+    width: 90%;
+    height: 300px;
+    margin: 20px auto;
+}
+ .quiz-master-q .box .form_box_question form input{
+	width: 24%;
+    line-height: 35px;
+    border: none;
+    border-left: 2px solid #998714;
+    border-right: 2px solid #998714;
+    background: rgba(0,0,0,0);
+    color: #998714;
+    font-size: 20px;
+}
+ .quiz-master-q .box .form_box_question form textarea{
+	width: 99%;
+    border: none;
+    border-left: 2px solid #998714;
+    border-right: 2px solid #998714;
+    background: rgba(0,0,0,0);
+    color: #998714;
+    font-size: 18px;
+}
+.box .form_box_question form button{
+	    width: 90%;
+    margin: 20px;
+    line-height: 40px;
+    background: transparent;
+    border: none;
+	border-left:3px solid #998714;
+	border-right:3px solid #998714;
+	border-top:1px solid rgba(255, 255, 255, 0.4);
+	border-bottom:1px solid rgba(255, 255, 255, 0.4);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.box .form_box_question form button:hover{	
+    background: #998714;
+    transition: .5s linear all;
+}
+.q-ans-box{
+	width: 100%;
+}
+#right-ans{
+	width: 98%;
+}
+#question-add-box{
+
+	width: 80%;
+    margin: auto;
+    background: #dcdeed;
+    text-align: center;
+    display: flex;    
+    margin: -70px auto 0 auto;
+    padding-bottom: 200px;
+
+}
+#question-add-box:hover{
+    box-shadow: 50px 33px 150px lightblue;
+}
+.question-fields{
+        text-align: center;
+    padding: 10px;
+    margin-bottom: 22px;
+}
+.question-fields input{
+    padding: 5px 10px;
+}
+.option-one{
+        display: inline-flex;
+    width: 30%;
+    display: block;
+    background-color: #000;
+    color: #fff;
+    padding: 0px 5px;
+    text-align: left;
+}
+.option-one:checked .option-one{
+    background-color: yellow;
+}
